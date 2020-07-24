@@ -30,13 +30,7 @@ class Song
   def self.genre_count
     @@genre_count = {}
       @@genres.each do |genre|
-        @@genre_count[genre] = 
-        
-        
-#         arr = [1,2,4,5,4,7] (1..6).group_by { |i| i%3 }
-
-# Hash[arr.group_by{|x|x}.map{|num,arr| [num, arr.size] }] 
-          
+        @@genre_count[genre] = "#{genre.size}"
       end
   end
   
