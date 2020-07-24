@@ -35,6 +35,7 @@ class Song
           +=1 
         else 
           =1 
+        end
       end
   end
   
